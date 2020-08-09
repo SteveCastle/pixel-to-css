@@ -10,7 +10,7 @@ https://codesandbox.io/s/pixel-art-with-just-css-box-shadow-89rnk
 
 ## Usage
 
-`npm -g install pixel-to-css`
+`npm install -g pixel-to-css`
 
 The CLI tool takes the following arguments:
 1. Path to a PNG image.
