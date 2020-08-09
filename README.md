@@ -16,6 +16,8 @@ The CLI tool takes the following arguments:
 3. A className to use for the class.
 `pixel-to-css image.png 50 myClassName`
 
+Output css string is sent to STDOUT so you can pipe it to the clipboard or a file, or where ever you like.
+
 ## About
 
 This package depends on the `image-js` package to process images.
