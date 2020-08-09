@@ -2,6 +2,10 @@
   "name": "pixel-to-css",
   "version": "1.0.0",
   "description": "Convert pngs to css box-shadow rule.",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/SteveCastle/pixel-to-css"
+  },
   "main": "pixeltoCSS.js",
   "preferGlobal": true,
   "bin": {
