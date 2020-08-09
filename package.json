@@ -6,10 +6,10 @@
     "type" : "git",
     "url" : "https://github.com/SteveCastle/pixel-to-css"
   },
-  "main": "pixeltoCSS.js",
+  "main": "src/pixelToCSS.js",
   "preferGlobal": true,
   "bin": {
-    "pixel-to-css": "pixeltoCSS.js"
+    "pixel-to-css": "src/pixelToCSS.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
