@@ -1,6 +1,6 @@
 {
   "name": "pixel-to-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert pngs to css box-shadow rule.",
   "repository": {
     "type" : "git",
@@ -16,6 +16,12 @@
   },
   "author": "Stephen Castle",
   "license": "MIT",
+  "keywords": [
+    "css",
+    "pixel art",
+    "box-shadow",
+    "cli"
+  ],
   "dependencies": {
     "image-js": "^0.21.9"
   }
