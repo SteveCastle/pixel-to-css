@@ -38,8 +38,11 @@ async function getPixelArray() {
       }
     }
   }
-  classString = classString + "};"
-
+  const isNotTerminated = classString.slice(-2) === ",\n"
+  if(isNotTerminated){
+    classString = classString.slice(0, classString.length - 2)
+  }
+  classString = classString + "\n};"
   // Return class string to STDOUT
   console.log(classString)
 }
